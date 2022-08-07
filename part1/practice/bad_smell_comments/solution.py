@@ -1,5 +1,5 @@
 class Unit:
-    # ...
+
     def move(self, field, x_coord: int, y_coord: int, direction, is_fly: bool, crawl: bool, speed: int = 1):
 
         if is_fly and crawl:
@@ -36,4 +36,4 @@ class Unit:
 
             field.set_unit(x=new_x, y=new_y, unit=self)
 
-#     ...
+
